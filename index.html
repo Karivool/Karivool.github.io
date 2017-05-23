@@ -1,5 +1,6 @@
+<!DOCTYPE HTML>
 <!--
-	Verti by HTML5 UP
+	Miniport by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
@@ -13,187 +14,149 @@
 		<link href="https://fonts.googleapis.com/css?family=Suez+One" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
-	<body class="homepage">
-		<div id="page-wrapper">
+	<body>
 
-			<!-- Header -->
-				<div id="header-wrapper">
-					<header id="header" class="container">
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a target="_blank" href="Evelyn-Lee-Resume.pdf">Resume</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
 
-						<!-- Logo -->
-							<div id="logo">
-								<h1><a href="index.html">Evelyn Lee</a></h1>
-							</div>
+		<!-- Home -->
+			<div class="wrapper style1 first">
+				<article class="container" id="top">
+					<div class="row">
+						<div class="4u 12u(mobile)">
+							<span class="image fit"><img src="profile-pic.jpeg" alt="" /></span>
+						</div>
+						<div class="8u 12u(mobile)">
+							<header>
+								<h1><strong>Evelyn Lee</strong></h1>
+							</header>
+							<div class="techs">
+								<img class="icon" src="images/icons/git.png">
+								<img class="icon" src="images/icons/html5.png">
+								<img class="icon" src="images/icons/javascript.png">
+								<img class="icon" src="images/icons/postgresql.png">
+								<img class="icon" src="images/icons/python.png">
+								<img class="icon" src="images/icons/rails.png">
+								<img class="icon" src="images/icons/react.png">
+								<img class="icon" src="images/icons/ruby.png">
+								<img class="icon" src="images/icons/gimp.png">
+							</div><br/>
+							<a href="#projects" class="button big scrolly">Check out my projects</a>
+						</div>
+					</div>
+				</article>
+			</div>
 
-						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li class="current"><a target="_blank" href="Evelyn-Lee-Resume.pdf">Resume</a></li>
-									<li class="current"><a href="#projects">Projects</a></li>
-									<li class="current"><a href="#about">About/Contact</a></li>
-								</ul>
-							</nav>
-
+		<!-- Portfolio -->
+			<div class="wrapper style3">
+				<article id="projects">
+					<header>
+						<h2>Projects</h2>
 					</header>
-				</div>
-
-			<!-- Features -->
-				<div id="features-wrapper">
 					<div class="container">
-						<section id="projects"></section>
 						<div class="row">
-							<div class="4u 12u(medium)">
-
-								<!-- Box -->
-									<section class="box feature">
-										<a href="http://okpizza.herokuapp.com" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-										<div class="inner">
-											<header>
-												<h2>OKPizza</h2>
-												<span><a href="http://okpizza.herokuapp.com">Live</a> • <a href="https://github.com/Karivool/okpizza">Repo</a></span>
-											</header>
-											<p>OKCupid clone built as a single page app using React on Rails. Features custom Rails associations, unidirection Flux cycle, question and user view components, and of course, pizza!</p>
-										</div>
-									</section>
-
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="http://okpizza.herokuapp.com" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+									<h3><a href="http://okpizza.herokuapp.com">OKPizza</a></h3>
+									<a href="http://okpizza.herokuapp.com">Live</a> • <a href="https://github.com/Karivool/okpizza">Repo</a>
+									<p>OKCupid clone built as a single page app using React on Rails. Features custom Rails associations, unidirection Flux cycle, question and user view components, and of course, pizza!</p>
+								</article>
 							</div>
-							<div class="4u 12u(medium)">
-
-								<!-- Box -->
-									<section class="box feature">
-										<a href="/PuzzleAppCademy" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-										<div class="inner">
-											<header>
-												<h2>PuzzleAppCademy</h2>
-												<span><a href="/PuzzleAppCademy">Live</a> • <a href="https://github.com/Karivool/PuzzleAppCademy">Repo</a></span>
-											</header>
-											<p>Timed orb matching puzzle game, based on Puzzle and Dragons. Built with KineticJS on top of Javascript for improved UX, recursive algorithms checks for matches on the fly.</p>
-										</div>
-									</section>
-
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="/PuzzleAppCademy" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+									<h3><a href="/PuzzleAppCademy">PuzzleAppCademy</a></h3>
+									<a href="/PuzzleAppCademy">Live</a> • <a href="https://github.com/Karivool/PuzzleAppCademy">Repo</a>
+									<p>Timed orb matching puzzle game, based on Puzzle and Dragons. Built with KineticJS on top of Javascript for improved UX, recursive algorithms checks for matches on the fly.</p>
+								</article>
 							</div>
-							<div class="4u 12u(medium)">
-
-								<!-- Box -->
-									<section class="box feature">
-										<a href="https://github.com/Karivool/HacktiveWreckerd" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-										<div class="inner">
-											<header>
-												<h2>HacktiveWreckerd</h2>
-												<span><a href="https://github.com/Karivool/HacktiveWreckerd">Repo</a></span>
-											</header>
-											<p>Custom ORM that joins SQL queries and Ruby together in one sleek library. Create Rails associations and make complex database calls on your backend like a true pro.</p>
-										</div>
-									</section>
-
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="https://github.com/Karivool/HacktiveWreckerd" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+									<h3><a href="https://github.com/Karivool/HacktiveWreckerd">HacktiveWreckerd</a></h3>
+									<a href="https://github.com/Karivool/HacktiveWreckerd">Repo</a></span>
+									<p>Custom ORM that joins SQL queries and Ruby together in one sleek library. Create Rails associations and make complex database calls on your backend like a true pro.</p>
+								</article>
+							</div>
+						</div>
+						<div class="row">
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+									<h3><a href="https://namestack.herokuapp.com/">NAMEStack</a></h3>
+									<a href="https://namestack.herokuapp.com/">Live</a> • <a href="https://github.com/Karivool/NAMEStack">Repo</a>
+									<p>A basic app built in the MEAN stack for the purpose of understanding how said stack works.</p>
+								</article>
+							</div>
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="/SlidingTilePuzzle" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+									<h3><a href="/SlidingTilePuzzle">Sliding Tile Puzzle</a></h3>
+									<a href="http://okpizza.herokuapp.com">Live</a> • <a href="https://github.com/Karivool/SlidingTilePuzzle">Repo</a>
+									<p>Colorful sliding tile puzzle with 8-bit sound effects. Always produces a solveable puzzle.</p>
+								</article>
+							</div>
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="https://github.com/Karivool/PizzaRPG" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+									<h3><a href="#">Pizza RPG</a></h3>
+									<a href="https://github.com/Karivool/PizzaRPG">Repo</a>
+									<p>Text based Python RPG with weapons, enemies, spells, and more puns than you can shake a USB stick at.</p>
+								</article>
 							</div>
 						</div>
 					</div>
-				</div>
+					<footer>
+						<p>Interested in reaching out?</p>
+						<a href="#contact" class="button big scrolly">Contact Info</a>
+					</footer>
+				</article>
+			</div>
 
-			<!-- Main -->
-				<div id="main-wrapper">
-					<div class="container">
-						<section id="about"></section>
-						<div class="row 200%">
-							<div class="4u 12u(medium)">
-
-								<!-- Sidebar -->
-									<div id="sidebar">
-										<section class="widget thumbnails">
-											<div>
-												<img class="profile-pic" src="profile-pic.jpeg"
-											</div>
-										</section>
-									</div>
-
-							</div>
-							<div class="8u 12u(medium) important(medium)">
-
-								<!-- Content -->
-									<div id="content">
-										<section class="last">
-											<h2>About</h2>
-											<p>Coding is something I enjoy, both as a hobby and a career. Debugging and trying to find out where an issue lies is tedious fun. A chance to throw in creative energy into a project is a surefire way to get me enthused.
-											<br></br>
-											I've been programmed to be easy to get along with, so let's commit to working on a project and you'll Git on well with me.</p>
-										</section>
-										<div class="techs">
-											<img class="icon" src="images/icons/git.png">
-											<img class="icon" src="images/icons/html5.png">
-											<img class="icon" src="images/icons/javascript.png">
-											<img class="icon" src="images/icons/postgresql.png">
-											<img class="icon" src="images/icons/python.png">
-											<img class="icon" src="images/icons/rails.png">
-											<img class="icon" src="images/icons/react.png">
-											<img class="icon" src="images/icons/ruby.png">
-											<img class="icon" src="images/icons/gimp.png">
-										</div>
-									</div>
-
-									<section id="contact"></section>
-									<footer id="footer" class="container">
-										<div class="row">
-											<div class="3u 6u$(medium) 12u$(small)">
-
-												<!-- Links -->
-													<section class="widget links">
-														<h3> </h3>
-														<ul class="style2">
-														</ul>
-													</section>
-
-											</div>
-											<div class="3u 6u(medium) 12u$(small)">
-
-												<!-- Links -->
-											</div>
-											<div class="3u 6u$(medium) 12u$(small)">
-
-												<!-- Contact -->
-													<section class="widget contact last">
-														<h1>Contact</h1>
-														<ul>
-															<li><a target="_blank" href="https://github.com/Karivool" class="icon fa-github"><span class="label">Github</span></a></li>
-															<li><a target="_blank" href="https://www.linkedin.com/in/evelyn-lee-676983108" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-															<li><a target="_blank" href="https://angel.co/evelyn-lee-4" class="icon fa-angellist"><span class="label">Angellist</span></a></li><br>
-
-															<li> evelynlee34 @gmail.com</li>
-														</ul>
-													</section>
-
-											</div>
-										</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Footer -->
-				<div id="footer-wrapper">
-
-
+		<!-- Contact -->
+			<div class="wrapper style4">
+				<article class="container 75%">
+					<header>
+						<h2 id="contact">About Me</h2>
+						<p>Coding is something I enjoy, both as a hobby and a career. Debugging and trying to find out where an issue lies is tedious fun. A chance to throw in creative energy into a project is a surefire way to get me enthused.<br/>
+						I've been programmed to be easy to get along with, so let's commit to working on a project and you'll Git on well with me.</p>
+					</header>
 						<div class="row">
 							<div class="12u">
-								<div id="copyright">
-									<ul class="menu">
-										<li>&copy; Evelyn Lee. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-									</ul>
-								</div>
+								<h3>Get in touch with me</h3>
+								<ul class="social">
+									<li><a href="https://www.linkedin.com/in/evelyn-lee-676983108" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/Karivool" class="icon fa-github"><span class="label">Github</span></a></li>
+									<br/>
+									<li>evelynlee34 @gmail.com</li>
+								</ul>
+								<hr />
 							</div>
 						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Evelyn Lee. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
 					</footer>
-				</div>
-
+				</article>
 			</div>
 
 		<!-- Scripts -->
-
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
