@@ -1441,11 +1441,11 @@
 					background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 					background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 					background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-					-moz-transition: background-color .2s ease-in-out;
-					-webkit-transition: background-color .2s ease-in-out;
-					-ms-transition: background-color .2s ease-in-out;
-					transition: background-color .2s ease-in-out;
-					background-color: #444;
+					-moz-transition: background-color .1s ease-in-out;
+					-webkit-transition: background-color .1s ease-in-out;
+					-ms-transition: background-color .1s ease-in-out;
+					transition: background-color .1s ease-in-out;
+					background-color: #b1b1b1;
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					color: #2E2E2E !important;
@@ -1473,7 +1473,7 @@
 				}
 
 				ul.social li a.fa-linkedin {
-					background-color: #006599;
+					background-color: #00a8ff;
 				}
 
 				ul.social li a.fa-tumblr {
@@ -1485,7 +1485,7 @@
 				}
 
 				ul.social li a.fa-github {
-					background-color: #FAFAFA;
+					background-color: #ffffff;
 				}
 
 				ul.social li a.fa-rss {
@@ -1871,7 +1871,7 @@
 				}
 
 				#top p {
-					font-size: 1.5em;
+					font-size: 1.2em;
 					line-height: 1.75em;
 				}
 
@@ -1919,7 +1919,7 @@
 			}
 
 			header {
-				margin: 0 0 4em 0;
+				margin: 0 0 2em 0;
 			}
 
 		/* Wrappers */
@@ -2004,7 +2004,7 @@
 			button,
 			.button {
 				text-align: center;
-				font-size: 1.2em;
+				font-size: 1.25em;
 				width: 100%;
 				padding: 1em 0 1em 0;
 			}
