@@ -1645,7 +1645,9 @@
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		background-color: rgb(26, 25, 39);
+    background-image: url(../art/topbanner.png);
+    text-shadow: black 3px 3px 5px;
 		text-align: center;
 		position: fixed;
 		left: 0;
