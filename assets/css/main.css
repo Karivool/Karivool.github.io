@@ -1657,11 +1657,19 @@
 /* Nav */
 
 	.orb-banner {
-		background-image: url(../art/borderorb.png);
-		height: 30px;
-    z-index: 10000;
     position: fixed;
+		z-index: 10000;
+		height: 17px;
     width: 100%;
+	}
+
+	.orb-banner .inner {
+		background-image: url(../art/borderorb.png);
+		position: absolute;
+		top: -13px;
+		left: 0;
+		right: 0;
+		bottom: 0;
 	}
 
 	#nav {
