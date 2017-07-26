@@ -1373,7 +1373,7 @@
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: #1e5166;
 	}
 
 		input[type="button"]:hover,
@@ -1390,7 +1390,7 @@
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #3BA8D3;
+			background-color: #1e5166;
 			top: 1px;
 		}
 
@@ -1399,7 +1399,7 @@
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background-color: #444;
+			background-color: #1e5166;
 			box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
 		}
 
