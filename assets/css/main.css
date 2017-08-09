@@ -181,7 +181,6 @@
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
-		background-repeat: no-repeat;
 		text-shadow: white 1px 1px 0px;
 		color: black;
 		font-weight: 600;
@@ -1672,24 +1671,18 @@
 /* Nav */
 
 	.orb-banner {
-    position: fixed;
-		z-index: 10000;
-		height: 17px;
-    width: 100%;
-	}
-
-	.orb-banner .inner {
 		-moz-transition: background-image .25s ease-in-out;
 		-webkit-transition: background-image .25s ease-in-out;
 		-ms-transition: background-image .25s ease-in-out;
 		transition: background-image .25s ease-in-out;
-		position: absolute;
-		top: -13px;
-		left: 0;
-		right: 0;
-		bottom: 0;
+		background-image: url(../art/borderorb.png);
+		height: 30px;
+		margin-bottom: -42px
 	}
 
+	.orb-banner:hover {
+		background-image: url(../art/borderorb2.png);
+	}
 
 	#nav {
 		background-color: rgb(26, 25, 39);
