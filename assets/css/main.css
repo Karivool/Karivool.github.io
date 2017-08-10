@@ -1576,7 +1576,6 @@
 		background: #fff;
 		box-shadow: inset 0px 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 0px 5px rgba(0, 0, 0, 0.1);
 		text-align: center;
-		background-image: url(../art/chefbox.png);
 		background-attachment: local;
 		-moz-transition: background-image .35s ease-in-out;
 		-webkit-transition: background-image .35s ease-in-out;
@@ -1585,7 +1584,7 @@
 	}
 
 	.box:hover {
-		background-image: url(../art/chefbox2.png);
+
 	}
 
 /* Icons */
@@ -2112,6 +2111,7 @@
 					margin: -50px 0 50px -40px;
 					width: auto;
 				}
+
 
 		/* Wrappers */
 
