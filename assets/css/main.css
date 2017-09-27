@@ -1682,7 +1682,8 @@
 		transition: background-image .25s ease-in-out;
 		background-image: url(../art/borderorb.png);
 		height: 30px;
-		margin-bottom: -42px
+		margin-top: 2px;
+		margin-bottom: 2px;
 	}
 
 	.orb-banner:hover {
